@@ -1,4 +1,9 @@
 # Tick-Tack-Toe-RL
+The implementation includes dynamic state-value updating mechanisms that continuously allow the agent to refine its strategy based on game outcomes. The Q-function's value iteration process enables the agent to develop sophisticated playing strategies without any pre-programmed game knowledge, purely through experiential learning and reward optimization. Statistical analysis of performance metrics across different player configurations validated the system's learning capabilities and strategic depth, demonstrating the successful implementation of fundamental reinforcement learning principles in a practical game theory context.
+
+# Testing-Environment
+
+Developed a comprehensive multi-agent testing environment supporting both Q-Learning and random agents, enabling rigorous performance analysis across 10,000 game iterations. The system demonstrated remarkable learning efficiency, with the Q-Learning agent achieving an 88% victory rate when playing as the first player against a random opponent. More impressively, when playing as the second player—traditionally a disadvantaged position—the agent achieved a 58% win rate, demonstrating the algorithm's ability to overcome positional disadvantages through strategic learning.
 
 ## Files and Folder info
 ************************
